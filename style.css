@@ -44,14 +44,14 @@ p {
 .btn {
   display: inline-block;
   color: #fff;
-  background: #93cb52;
+  background: #a219b2;
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #7ab436;
+  background: #a219b2;
 }
 
 .btn-dark {
@@ -64,31 +64,27 @@ p {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
+   
+    
+   
+ 
+     
 }
+
+  
 
 .text-center {
   text-align: center;
 }
 
 .py-1 {
-  padding: 1.5rem 0;
-}
-.py-2 {
-  padding: 2rem 0;
-}
-.py-3 {
-  padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .p-1 {
-  padding: 1.5rem;
+    padding: 1.5rem;
 }
-.p-2 {
-  padding: 2rem;
-}
-.p-3 {
-  padding: 3rem;
-}
+
 
 .bg-light {
   background: #f4f4f4;
@@ -106,7 +102,7 @@ p {
 }
 
 .bg-primary {
-  background: #93cb52;
+  background: #4e4b4e;
   color: #fff;
 }
 
@@ -136,21 +132,21 @@ p {
 }
 
 #navbar ul li a:hover {
-  background: #93cb52;
+  background: #a219b2;
   border-radius: 5px;
 }
 
 /* Showcase */
 
-#showcase {
-  background: #333 url("../imgs/showcase.jpg") no-repeat center center/cover;
+#home {
+  background: #333 url("img/showcase/showcase.jfif") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
 
-#showcase .showcase-content {
+#home .showcase-content {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -168,20 +164,85 @@ p {
 
 /* Services */
 
-#services .items {
-  display: flex;
+#services .items  {
+
+    display: flex;
+   
+    
+    
+  
+
+  
+ 
 }
 
-#services .items .item {
-  flex: 1;
-  text-align: center;
-  padding: 1rem;
-}
 
-#services .items .item i {
-  background: #93cb52;
+
+#services .items .item i  img{
+
+  background:  #a219b2;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 50%;
+
+
+  
+   
+
 }
 
+/* About Us */
+
+#aboutus {
+    display: flex;
+  }
+  
+  #aboutus div {
+    flex: 1;
+  }
+  
+  #aboutus .aboutus-img {
+    background: url("./img/showcase/showcase.jfif") no-repeat center center/cover;
+  }
+  
+  
+  /* Contact */
+  
+  #contact {
+    display: flex;
+  }
+  
+
+  #contact .contact-form {
+    flex: 1;
+  }
+  
+  #contact .contact-form .form-group {
+    margin: 0.75rem;
+  }
+  
+  #contact .contact-form label {
+    display: block;
+  }
+  
+  #contact .contact-form input,
+  #contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    
+  }
+  
+  #contact .contact-form input:focus,
+  #contact .contact-form textarea:focus {
+    outline: none;
+    border-color: #333;
+    
+  }
+  
+  #contact .contact-form textarea {
+    height: 10vh;
+    resize: none;
+  }
+
+
+ 

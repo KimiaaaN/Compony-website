@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/f303a43458.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     <link rel="stylesheet" href="style.css" />
 
@@ -15,26 +16,26 @@
    
 </head>
 <body id="Home">
-    <!..NavBar..>
+    <!--navbar-->
     <nav id="navbar">
-        <h1 class"Logo">
+        <h1 class"logo">
             <span class="text-primary">
-                <i class"fas fa-book-open"></i> The
+                <i class="fas fa-book-open"></i> The
             </span>
             Classes
         </h1>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#servises">Courses</a></li>
+            <li><a href="#services">Courses</a></li>
             <li><a href="#aboutus">AboutUs</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
+        </ul>
 
     </nav>
 
     <!-- Showcase -->
 
-    <header id="showcase">
+    <header id="home">
         <div class="showcase-content">
           <h1 class="l-heading">
             Never Stop Learning...
@@ -43,22 +44,46 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam expedita
             quam aut qui dolorem rerum aperiam voluptate sed culpa facere?
           </p>
-          <a href="#aboutus" class="btn">Read More</a>
+          <a href="#aboutus" class="btn" onclick="onClick(this)" id="AboutUs">Read More </a>
         </div>
       </header>
 
       <!-- Services -->
 
-    <section id="Services" class="bg-light py-1">
+    <section id="services" class="bg-light py-1">
         <div class="container">
           <h2 class="m-heading text-center">
             <span class="text-primary">Our Courses</span>
           </h2>
-          <div class="items">
-            <div class="item1">
-              <img src="./img/item1/front-end-dev.jpg" style="width:100%">
+          <div class="item">
+
+            <div class="item1" style="margin-top:64px">
+        
+              <img src="./img/item1/front-end-dev.jpg" style="width: 100%">
               <div>
                 <h3>Front-end Development</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
+                  dolorem.
+                </p>
+                <br>&#0036;40.00
+              </div>
+            </div>
+            <div class="item2" style="margin-top:64px">
+                <img src="./img/item2/back-end-dev.jpg" style="width:100%">
+              <div>
+                <h3>Back-end Development</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
+                  dolorem.
+                </p>
+                <br>&#0036;40.00
+              </div>
+            </div>
+            <div class="item3" style="margin-top:64px">
+                <img src="./img/item3/mobile-app-dev.jpg" style="width:100%">
+              <div>
+                <h3>Mobile App Development</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                   dolorem.
@@ -66,119 +91,175 @@
                 <br>&#0036;30.00
               </div>
             </div>
-            <div class="item2">
-              <i class="fas fa-book-reader fa-2x"></i>
-              <div>
-                <h3>Back-end Development</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
-                  dolorem.
-                </p>
-              </div>
-            </div>
-            <div class="item3">
-              <i class="fas fa-pencil-alt fa-2x"></i>
-              <div>
-                <h3>Mobile App Development</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
-                  dolorem.
-                </p>
-              </div>
-            </div>
-            <div class="item4">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item4"style="margin-top:64px">
+                <img src="./img/item4/game-dev.png" style="width:100%">
                 <div>
-                  <h3>Game Development</h3>
+                  <h4>Game Development</h4>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;35.00
                 </div>
             </div>
-            <div class="item5">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item5" style="margin-top:64px">
+                <img src="./img/item5/business analysis.jfif" style="width:100%">
                 <div>
-                  <h3>Business Analytics </h3>
+                  <h5>Business Analytics </h5>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;20.00
                 </div>
             </div>
-            <div class="item6">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item6" style="margin-top:64px">
+                <img src="./img/item6/Digital-Market.jpeg" style="width:100%">
                 <div>
-                  <h3>Digital Marketing</h3>
+                  <h6>Digital Marketing</h6>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;30.00
                 </div>
             </div>
-            <div class="item7">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item7" style="margin-top:64px">
+                <img src="./img/item7/AI.jfif" style="width:100%">
                 <div>
-                  <h3>Entrepreneurship</h3>
+                  <h7>Artificail Intelligene</h7>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;50.00
                 </div>
             </div>
-            <div class="item8">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item8" style="margin-top:64px">
+                <img src="./img/item8/graphic.jfif" style="width:100%">
                 <div>
-                  <h3>Graphic Design </h3>
+                  <h8>Graphic Design </h8>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;15.00
                 </div>
             </div>
-            <div class="item9">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item9" style="margin-top:64px">
+                <img src="./img/item9/IT.jfif" style="width:100%">
                 <div>
-                  <h3>IT Cirtification</h3>
+                  <h9>IT Certification</h9>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;100.00
                 </div>
             </div>
-            <div class="item10">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item10" style="margin-top:64px">
+                <img src="./img/item10/AWS.jfif" style="width:100%">
                 <div>
-                  <h3>AWS Cirtification</h3>
+                  <h10>AWS Certification</h10>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;200.00
                 </div>
             </div>
-            <div class="item11">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item11" style="margin-top:64px">
+                <img src="./img/item11/finance.png" style="width:100%">
                 <div>
-                  <h3>Finance and Accounting</h3>
+                  <h11>Finance and Accounting</h11>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;30.00
                 </div>
             </div>
-            <div class="item12">
-                <i class="fas fa-pencil-alt fa-2x"></i>
+            <div class="item12" style="margin-top:64px">
+                <img src="./img/item12/project-manag.jfif" style="width:100%">
                 <div>
-                  <h3>Project Managment</h3>
+                  <h12>Project Managment</h12>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
                     dolorem.
                   </p>
+                  <br>&#0036;10.00
                 </div>
             </div>
           </div>
         </div>
     </section>
+
+    <!-- About Us-->
+
+    <section id="aboutus">
+        
+        <div class="aboutus-text bg-dark p-2">
+          <h2 class="m-heading"><span class="text-primary">About</span> Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae esse
+            molestias amet necessitatibus. Saepe neque quidem ducimus. Ipsam
+            delectus porro veritatis. Libero aperiam excepturi quo accusamus
+            ratione blanditiis nemo nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae esse
+            molestias amet necessitatibus. Saepe neque quidem ducimus. Ipsam
+            delectus porro veritatis. Libero aperiam excepturi quo accusamus
+            ratione blanditiis nemo nihil!
+          </p>
+        </div>
+      </section>
+  
+      
+  
+      <section id="contact">
+        <div class="contact-form bg-primary p-2">
+          <h2 class="m-heading">
+            Contact Us
+          </h2>
+          <p>Please use the form to contact us</p>
+          <form action="" id="form" onsubmit="sConsole(event1)">
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Name"">
+            </div>
+            <div class="form-group">
+                <label for="Surname">Surname</label>
+                <input type="text" name="Surname" id="Surname" placeholder="Enter Surname"">
+            </div>
+            <div class="form-group">
+              <label for="form">Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter Email"">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="text" name="phone" id="phone" placeholder="Enter Phone Number"">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Enter Message""></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
+  
+  
+      <!-- Footer -->
+      <footer id="main-footer" class="bg-dark py-1 text-center">
+        <p>Copyright &copy; 2022, Kimia Nahravanian, All Rights Reserved</p>
+      </footer>
+  
+  
+  
+      
+  
+      <script src="./main.js"></script>
+  
+      
   
   
 
