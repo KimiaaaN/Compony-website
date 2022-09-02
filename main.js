@@ -7,9 +7,11 @@ window.addEventListener('scroll', function() {
       document.querySelector('#navbar').style.opacity = 1;
     }
   });
+
+
   
   
-  // Smooth Scrolling
+  //Smooth Scrolling
   $('#navbar a, .btn').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
@@ -25,9 +27,22 @@ window.addEventListener('scroll', function() {
     }
   });
 
-  function sConsole(event1) {
-    event1.preventDefault();
-    var data = document.getElementById("name" );
-    console.log(data.value);
-    
-  };
+
+
+   function sConsole(event) {
+    event.preventDefault();
+
+   
+   var data1= document.getElementById("name");
+
+   var data2= document.getElementById("surname");
+
+   var data3= document.getElementById("email");
+  
+   var data4= document.getElementById("phone");
+
+   var data5= document.getElementById("message");
+  
+   console.log("Name:", data1.value,"\n","Surname:", data2.value,"\n","Email:", data3.value ,"\n","Phone Number:",data4.value ,"\n","Message:", data5.value);
+  }
+
